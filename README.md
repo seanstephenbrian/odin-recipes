@@ -1,1 +1,1 @@
-# odin-recipes
+This project -- a simple index page with links to different recipes -- will demonstrate my understanding of basic HTML. I'll be logging my work on GitHub as I go and will update this page at the conclusion of the project with a summary of what I built and learned.
