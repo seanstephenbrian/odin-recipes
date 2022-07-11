@@ -1,0 +1,78 @@
+body {
+    background-color: #ffffff;
+    background-image:  repeating-linear-gradient(45deg, #ff9191 25%, transparent 25%, transparent 75%, #ff9191 75%, #ff9191), repeating-linear-gradient(45deg, #ff9191 25%, #ffffff 25%, #ffffff 75%, #ff9191 75%, #ff9191);
+    background-position: 0 0, 40px 40px;
+    background-size: 80px 80px;
+    font-family: Helvetica, sans-serif;
+}
+
+span {
+    background-color: #d9d9d9;
+    border-style: double;
+    border-color: black;
+}
+
+span span {
+    border-style: none;
+}
+
+.pagetitle {
+    font-family: 'Brush Script MT';
+    font-size: 60px;
+}
+
+#italian {
+    color: green;
+}
+
+#american {
+    color: white;
+}
+
+#classics {
+    color: red;
+}
+
+#hometitle {
+    padding: 8px;
+}
+
+#homesubtitle {
+    padding: 3px;
+}
+
+#homeintrotext {
+    padding: 2px;
+}
+
+.pagetitle , .pagesubtitle {
+    text-align: center;
+}
+
+.listelement {
+    padding: 2px;
+}
+
+li {
+    margin: 10px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#homeimage {
+    width: 500px;
+    height: auto;
+}
+
+#homeintro {
+    text-align: center;
+}
+
+#linkslist {
+    text-align: center;
+    list-style-type: none;
+}
