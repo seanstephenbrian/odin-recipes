@@ -4,12 +4,14 @@ body {
     background-position: 0 0, 40px 40px;
     background-size: 80px 80px;
     font-family: Helvetica, sans-serif;
+    padding-bottom: 25px;
 }
 
 span {
     background-color: #d9d9d9;
     border-style: double;
-    border-color: black;
+    border-color: green;
+    border-width: 5px;
 }
 
 span span {
@@ -41,8 +43,22 @@ span span {
     padding: 3px;
 }
 
+#redsaucetitle {
+    padding: 5px;
+}
+
 #homeintrotext {
     padding: 2px;
+}
+
+.recipe-subheading {
+    font-style: italic;
+    font-family: 'Brush Script MT';
+    font-size: 40px;
+}
+
+.subheading {
+    padding: 6px;
 }
 
 .pagetitle , .pagesubtitle {
@@ -50,17 +66,59 @@ span span {
 }
 
 .listelement {
-    padding: 2px;
+    padding: 4px;
 }
 
 li {
-    margin: 10px;
+    margin: 20px;
+}
+
+ul {
+    white-space: nowrap; 
+    list-style: square;
+}
+
+#note {
+    padding: 5px;
+    font-style: italic;
+    display: block;
+}
+
+#ragu {
+    font-style: italic;
+    border-style: none;
+    background-color: #6e0101;
+}
+
+#returnhome {
+    padding: 5px;
+    font-weight: bold;
+}
+
+#gohome {
+    width: 300px;
+    margin: auto;
+}
+
+#redsauce:hover {
+    color: red;
+}
+
+#meatballs:hover {
+    color: white;
+}
+
+#garlicbread:hover {
+    color: green;
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-style: inset;
+    border-color: red;
+    border-width: 10px;
 }
 
 #homeimage {
