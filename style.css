@@ -23,16 +23,23 @@ span span {
     font-size: 60px;
 }
 
+.pagetitle , .pagesubtitle {
+    text-align: center;
+}
+
 #italian {
     color: green;
+    font-style: italic;
 }
 
 #american {
     color: white;
+    font-style: italic;
 }
 
 #classics {
     color: red;
+    font-style: italic;
 }
 
 #hometitle {
@@ -41,14 +48,18 @@ span span {
 
 #homesubtitle {
     padding: 3px;
+    border-style: double;
+    border-color: red;
+    border-width: 5px;
 }
 
-#redsaucetitle {
-    padding: 5px;
-}
 
 #homeintrotext {
     padding: 2px;
+}
+
+.titletext {
+    padding: 5px;
 }
 
 .recipe-subheading {
@@ -61,15 +72,11 @@ span span {
     padding: 6px;
 }
 
-.pagetitle , .pagesubtitle {
-    text-align: center;
-}
-
 .listelement {
     padding: 4px;
 }
 
-li {
+.homelinks {
     margin: 20px;
 }
 
@@ -82,6 +89,10 @@ ul {
     padding: 5px;
     font-style: italic;
     display: block;
+}
+
+#servings {
+    padding: 3px;
 }
 
 #ragu {
@@ -102,10 +113,16 @@ ul {
 
 #redsauce:hover {
     color: red;
+    border-style: double;
+    border-color: red;
+    border-width: 5px;
 }
 
 #meatballs:hover {
     color: white;
+    border-style: double;
+    border-color: white;
+    border-width: 5px;
 }
 
 #garlicbread:hover {
